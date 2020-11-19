@@ -9,7 +9,7 @@
 
 /* "base,S=123:2," means:
    <base> [<extra sep> <extra data> [..]] <info sep> 2 <flags sep> */
-#define MAILDIR_INFO_SEP ':'
+#define MAILDIR_INFO_SEP ';' /* nullren: using ; so that dropbox can sync these files to windows */
 #define MAILDIR_EXTRA_SEP ','
 #define MAILDIR_FLAGS_SEP ','
 
